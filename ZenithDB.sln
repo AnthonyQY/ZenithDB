@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29020.237
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZenithDB", "ZenithDB\ZenithDB.csproj", "{D92D67D5-0276-4194-8705-3831E8B2010D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZenithDB Test Interface", "ZenithDB Test Interface\ZenithDB Test Interface.csproj", "{703336BE-DB54-43B3-AE32-FF37D469062D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D92D67D5-0276-4194-8705-3831E8B2010D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D92D67D5-0276-4194-8705-3831E8B2010D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D92D67D5-0276-4194-8705-3831E8B2010D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D92D67D5-0276-4194-8705-3831E8B2010D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{703336BE-DB54-43B3-AE32-FF37D469062D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{703336BE-DB54-43B3-AE32-FF37D469062D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{703336BE-DB54-43B3-AE32-FF37D469062D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{703336BE-DB54-43B3-AE32-FF37D469062D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9E19429E-6AB2-4397-9908-DF1C4140C52A}
+	EndGlobalSection
+EndGlobal
