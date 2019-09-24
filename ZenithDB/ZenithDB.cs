@@ -18,10 +18,6 @@ namespace ZenithDB
         internal List<string[]> FileDataArray = new List<string[]>();
         internal List<string> EncodedFileData = new List<string>();
 
-        public ZenithDatabase()
-        {
-        }
-
         public bool CreateDatabase(string FilePath, bool OverrideExisting = false, char Delimiter = '#')
         {
             this.FilePath = FilePath;
@@ -220,6 +216,21 @@ namespace ZenithDB
                 {
                     FileDataArray.Remove(Entry);
                 }
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                return false;
+            }
+        }
+
+        public bool ChangeData(string Key, string Value)
+        {
+            try
+            {
+                DeleteData(Key);
+                InsertData(Key, Value);
                 return true;
             }
             catch (Exception ex)
